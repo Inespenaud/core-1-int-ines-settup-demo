@@ -295,5 +295,5 @@ textarea {
 
 .container {
   display: grid;
-  grid-template-columns: 400px 400px 400px;
+  grid-template-columns: 200px 200px 200px;
 }
