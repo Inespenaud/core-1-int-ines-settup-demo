@@ -18,7 +18,10 @@ html {
   padding: 1.5rem;
 }
 
-
+.container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+}
 
 /*
  * Remove text-shadow in selection highlight:
