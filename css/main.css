@@ -293,10 +293,7 @@ textarea {
   }
 }
 
-<<<<<<< HEAD
-=======
 .container {
   display: grid;
   grid-template-columns: 200px 200px 200px;
 }
->>>>>>> parent of dcc9020 (Revert "Update main.css")
