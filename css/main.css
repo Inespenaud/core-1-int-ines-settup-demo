@@ -28,6 +28,12 @@ main {
   grid-gap:2rem;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 20px;
+}
+
 .left-sidebar {
   grid-column: 1 / 2;
   background-color: #ccc;
@@ -282,18 +288,17 @@ textarea {
 
   p,
   h2,
-  h3 {
+  h3,
+  h4 {
     orphans: 3;
     widows: 3;
   }
 
   h2,
-  h3 {
+  h3,
+  h4 {
     page-break-after: avoid;
   }
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 200px 200px 200px;
-}
+
